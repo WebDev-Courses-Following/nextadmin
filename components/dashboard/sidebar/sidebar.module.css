@@ -1,4 +1,5 @@
 /** @format */
+
 .container {
   position: sticky;
   top: 40px;
@@ -56,5 +57,5 @@
 }
 
 .logout:hover {
-  background-color: #2e374a;
+  background-color: var(--bgLight);
 }

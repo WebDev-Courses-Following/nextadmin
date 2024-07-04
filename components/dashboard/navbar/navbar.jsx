@@ -1,6 +1,6 @@
 /** @format */
-'use client';
 
+'use client';
 import { usePathname } from 'next/navigation';
 import { MdNotifications, MdOutlineChat, MdPublic, MdSearch } from 'react-icons/md';
 

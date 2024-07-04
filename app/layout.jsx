@@ -1,4 +1,5 @@
 /** @format */
+
 import { Inter } from 'next/font/google';
 
 import '@/components/globals.css';

@@ -1,7 +1,7 @@
-const Homepage = () => {
-  return (
-    <div>Homepage</div>
-  )
-}
+/** @format */
 
-export default Homepage
+const Homepage = () => {
+  return <div>Homepage</div>;
+};
+
+export default Homepage;

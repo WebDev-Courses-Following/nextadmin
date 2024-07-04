@@ -1,2 +1,3 @@
 /** @format */
-export { default as NavBar } from './navbar';
+
+export { default as NavBar } from './NavBar';

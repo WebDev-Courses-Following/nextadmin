@@ -1,17 +1,19 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
+/** @format */
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+import '@/components/globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Lama Dev Next.js Admin Dashboard',
   description: 'Next.js Tutorial',
-}
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
